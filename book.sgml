@@ -54,7 +54,7 @@
     &bookinfo.legalnotice;
 
     <abstract>
-      <para>Este &eacute; o s&iacute;tio Web do Projeto de
+      <para>Este &eacute; o Web site do Projeto de
 	Documenta&ccedil;&atilde;o do FreeBSD em Portugu&ecirc;s
 	Brasileiro, criado em 2003
 	pelo Grupo de Usu&aacute;rios Brasileiros de FreeBSD,
@@ -80,11 +80,11 @@
 	documentos produzidos pelo <foreignphrase>FreeBSD Documentation Project
 	(<acronym>FDP</acronym>)</foreignphrase>.</para>
 	
-      <para>O trabalho de tradu&ccedil;&atilde;o &eacute; realizado diretamente
-	nos originais em <acronym>SGML</acronym>, os quais s&atilde;o mantidos em um
-	reposit&oacute;rio <acronym>CVS</acronym> pr&oacute;prio at&eacute; que estejam prontos (traduzidos
-	e revisados) para serem incorporados &agrave; &aacute;rvore
-	<acronym>CVS</acronym> oficial Projeto FreeBSD.</para>
+      <para>O trabalho de tradu&ccedil;&atilde;o &eacute; realizado diretamente nos
+	originais em <acronym>SGML</acronym>, que s&atilde;o mantidos em um
+	reposit&oacute;rio Git at&eacute; que estejam prontos (traduzidos e
+	revisados) para serem incorporados &agrave; &aacute;rvore Subversion oficial
+	do Projeto FreeBSD.</para>
     </sect1>
 
    <sect1 id="prefacio-participar">
@@ -92,15 +92,15 @@
 
       <para>O Projeto&nbsp;Brasileiro&nbsp;de&nbsp;Documenta&ccedil;&atilde;o&nbsp;do&nbsp;FreeBSD
 	(<foreignphrase>FreeBSD&nbsp;Brazilian&nbsp;Portuguese&nbsp;Documentation&nbsp;Project</foreignphrase>),
-	chamado comumente apenas de &adocbr; &eacute; composto de
+	chamado comumente apenas de &adocbr; &eacute; composto do
 	esfor&ccedil;o volunt&aacute;rio de usu&aacute;rios do sistema, em geral
-	membros da &afug;.  Ent&atilde;o por qu&ecirc; n&atilde;o
+	membros da &afug;.  Ent&atilde;o por que n&atilde;o
 	juntar-se ao time?</para>
 
       <para>Para fazer parte deste projeto voc&ecirc; deve ter um apurado
 	senso de responsabilidade e comprometimento, o que inclui especialmente
 	n&atilde;o assumir mais atribui&ccedil;&otilde;es do que voc&ecirc;
-	&eacute; capaz de cumprir, em especial em rela&ccedil;&atilde;o &agrave;
+	&eacute; capaz de cumprir, em especial em rela&ccedil;&atilde;o ao
 	tempo dispon&iacute;vel para contribuir.
 	Mas note bem, mesmo com pouca disponibilidade sua
 	particia&ccedil;&atilde;o &eacute; valiosa para o time.</para>
@@ -111,24 +111,26 @@
 	e mantido em suas &uacute;ltimas revis&otilde;es, como Franc&ecirc;s,
 	Alem&atilde;o e Japon&ecirc;s.  &Eacute; necess&aacute;rio tamb&eacute;m
 	flu&ecirc;ncia em l&iacute;ngua portuguesa escrita e em especial
-	familiaridade com termos t&eacute;cnicos.  O time &eacute; relativamente
-	grande, portanto facilidade para trabalho em equipe &eacute;
-	essencial bem como a correta observ&acirc;ncia de regras,
-	pois al&eacute;m de cumprir com os preceitos originais
-	do <acronym>FDP</acronym> o &adocbr; ainda
+	familiaridade com termos t&eacute;cnicos. &Eacute; um trabalho
+	colaborativo, portanto facilidade para trabalho em equipe &eacute;
+	essencial bem, como a correta observ&acirc;ncia de regras,
+	poi,s al&eacute;m de cumprir com os preceitos originais
+	do <acronym>FDP</acronym>, o &adocbr; ainda
 	faz uso de regras e padr&otilde;es pr&oacute;prios.</para>
 
       <para>Se voc&ecirc; se encaixa neste perfil, sua presen&ccedil;a
 	no time ser&aacute; valiosa.  Para tal, o primeiro passo
 	&eacute; ler atentamente o &a.ptbr.p.fdpp;, dispon&iacute;vel
-	em <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/books/fdp-primer/">
+	em <ulink
+	  url="http://server06.ebrandi.eti.br/books/fdp-primer/">
 	Portugu&ecirc;s Brasileiro aqui</ulink> e em
 	<ulink url="http://www.freebsd.org/doc/en_US.ISO8859-1/books/fdp-primer/">
 	Ingl&ecirc;s aqui</ulink>.</para>
 
       <para>Ap&oacute;s a leitura do <acronym>FDP</acronym> se ainda assim
-	voc&ecirc; quiser se juntar ao time, siga para o Cap&iacute;tulo 2
-	<!-- XXX linkar --> deste documento.</para>
+	voc&ecirc; quiser se juntar ao time, siga para o <link 
+	  linkend="docbr-internals">Cap&iacute;tulo 2</link> deste
+	documento.</para>
     </sect1>
 
     <sect1 id="prefacio-participar-papeis">
@@ -159,18 +161,18 @@
 	    o <acronym>FDP</acronym> voc&ecirc; soube que
 	    para incluir informa&ccedil;&otilde;es localizadas em
 	    algum documento j&aacute; existente dentro do Projeto,
-	    o time de localiza&ccedil;&atilde;o deve antes submete-las
+	    o time de localiza&ccedil;&atilde;o deve antes submet&ecirc;-las
 	    &agrave; documenta&ccedil;&atilde;o original, em ingl&ecirc;s.  Isso
 	    &eacute; para garantir integridade de conte&uacute;do
 	    em qualquer l&iacute;ngua.  Complementarmente
 	    qualquer contribu&ccedil;&atilde;o completa (livro ou artigo)
 	    que desejemos criar oficialmente, tem antes que
-	    ser aprovado em l&iacute;ngua inglesa.  Aqui
+	    ser aprovada em l&iacute;ngua inglesa.  Aqui
 	    entra o Tradutor 2.</para>
 
 	    <para>O Tradutor 2 deve ter grande facilidade para escrita
 	    formal e t&eacute;cnica em l&iacute;ngua inglesa.  N&atilde;o precisa ser
-	    fluente pois a documenta&ccedil;&atilde;o submetida ser&aacute;
+	    fluente, pois a documenta&ccedil;&atilde;o submetida ser&aacute;
 	    revisada por nativos desta l&iacute;ngua, contudo,
 	    n&atilde;o &eacute; poss&iacute;vel o uso de linguagem coloquial.
 	    &Eacute; atrav&eacute;s do Tradutor 2 que a comunidade
@@ -247,7 +249,7 @@
       do Projeto FreeBSD, essencialmente sob as categorias Livros
       (<foreignphrase>books</foreignphrase>) e Artigos
       (<foreignphrase>articles</foreignphrase>).  Este &eacute; o grande
-      desafio, e o f&oacute;co prim&aacute;rio de trabalho
+      desafio, e o foco prim&aacute;rio de trabalho
       s&atilde;o os livros <emphasis>Handbook do FreeBSD</emphasis> e
       <emphasis>FAQ do FreeBSD</emphasis>.</para>
 
@@ -266,9 +268,9 @@
 	    originalmente o primeiro trabalho completo terminado pelo
 	    &adocbr; em um esfor&ccedil;o
 	    centralizado desempenhado pela
-	    <ulink url="http://www.freebsdbrasil.com.br">FreeBSD Brasil</ulink>
-	    e revisado pela comunidade.  Foi o ponta-p&eacute; inicial para o
-	    &adocbr;.  Hoje o conteudo precisa ser atualizado.
+	    <ulink url="http://www.freebsdbrasil.com.b/r">FreeBSD Brasil</ulink>
+	    e revisado pela comunidade.  Foi o pontap&eacute; inicial para o
+	    &adocbr;.  Hoje o conte&uacute;do precisa ser atualizado.
 	    Est&aacute; em conformidade com a revis&atilde;o
 	    <literal>1.456</literal> do documento original em Ingl&ecirc;s.</para>
 	</listitem>
@@ -282,23 +284,23 @@
 	</title>
 
 	<listitem>
-	  <para>Artigo escrito por <quote>Jordan K.  Hubbard</quote>
+	  <para>Artigo escrito por <quote>Jordan K. Hubbard</quote>
 	    aborda as diferentes maneiras como um
-	    indiv&iacute;duo, organiza&ccedil;&atilde;o ou grupo
-	    de usu&aacute;rios pode contribuir com o Projeto FreeBSD.
-	    Est&aacute; em conformidade com a revis&atilde;o
-	    <literal>1.496</literal> do documento original em Ingl&ecirc;s.</para>
+	    indiv&iacute;duo, organiza&ccedil;&atilde;o ou grupo de usu&aacute;rios podem
+	    contribuir com o Projeto FreeBSD.  Este
+	    documento tamb&eacute;m precisa ser atualizado.  Est&aacute; em
+	    conformidade com a revis&atilde;o <literal>1.496</literal> do
+	    documento original em Ingl&ecirc;s.</para>
 	</listitem>
       </itemizedlist>
     </sect1>
-
 
     <sect1 id="documentos-em-revisao">
       <title>Atualmente em fase de revis&atilde;o (&agrave; ser integrados em breve)</title>
 
       <itemizedlist>
 	<title>
-	  <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/books/fdp-primer/">
+	  <ulink url="http://server06.ebrandi.eti.br/books/fdp-primer/">
 	    FDP Primer &mdash; &a.ptbr.p.fdpp; para novos colaboradores
 	  </ulink>
 	</title>
@@ -307,15 +309,39 @@
 	  <para>Este &a.ptbr.p.fdpp; cobre tudo o que voc&ecirc; precisa
 	    saber para come&ccedil;ar a contribuir com o Projeto de
 	    Documenta&ccedil;&atilde;o do FreeBSD, desde as ferramentas e
-	    softwares que que voc&ecirc; estar&aacute; utilizando (tanto
+	    softwares que voc&ecirc; estar&aacute; utilizando (tanto
 	    os obrigat&oacute;rios quanto os recomendados) &agrave;
 	    filosofia por tr&aacute;s do projeto de
 	    documenta&ccedil;&atilde;o.</para>
 
 	    <para>Est&aacute; em conformidade com a revis&atilde;o
-	    <literal>1.20</literal> do documento original em Ingl&ecirc;s.</para>
+	    <literal>r38826</literal> do documento original em Ingl&ecirc;s.</para>
 	</listitem>
       </itemizedlist>
+
+      <itemizedlist>
+	<title>
+	  <ulink
+	    url="http://server06.ebrandi.eti.br/articles/linux-users/">
+	    Guia R&aacute;pido do FreeBSD para Usu&aacute;rios Linux
+	  </ulink>
+	</title>
+
+	<listitem>
+	  <para>Este documento tem por objetivo tentar destacar as principais
+	    diferen&ccedil;as entre os dois sistemas operacionais, indo desde
+	    gerenciamento de pacotes, at&eacute; os m&eacute;todos de atualiza&ccedil;&atilde;o do
+	    sistema.</para>
+
+	  <para>Est&aacute; em conformidade com a revis&atilde;o
+	    <literal>r39170</literal> do documento original em
+	    Ingl&ecirc;s.</para>
+	</listitem>
+      </itemizedlist>
+
+      <!-- # Documentos que estavam em fase de revisao, mas ainda nao
+             existe previsao para serem atualizados na nova fase.
+	     HOWTO: Reposicionar para nova area.
 
       <itemizedlist>
 	<title>
@@ -350,23 +376,6 @@
 
 	    <para>Est&aacute; em conformidade com a revis&atilde;o
 	    <literal>1.7</literal> do documento original em Ingl&ecirc;s.</para>
-	</listitem>
-      </itemizedlist>
-
-      <itemizedlist>
-	<title>
-	  <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/problem-reports/">
-	    Escrevendo relat&oacute;rios de problema no FreeBSD
-	  </ulink>
-	</title>
-
-	<listitem>
-	  <para>Este artigo descreve qual a melhor forma de formular e de
-	    submeter um rel&aacute;torio de problemas para o Projeto
-	    FreeBSD.</para>
-
-	    <para>Est&aacute; em conformidade com a revis&atilde;o
-	    <literal>1.17</literal> do documento original em Ingl&ecirc;s.</para>
 	</listitem>
       </itemizedlist>
 
@@ -550,11 +559,34 @@
 	    <literal>1.19</literal> do documento original em Ingl&ecirc;s.</para>
 	</listitem>
       </itemizedlist>
+
+      Fim da lista -->
+
     </sect1>
 
 
     <sect1 id="documentos-em-traducao">
       <title>Em trabalho de tradu&ccedil;&atilde;o</title>
+
+      <itemizedlist>
+        <title>
+          <ulink
+            url="http://server06.ebrandi.eti.br/articles/problem-reports/">
+            Escrevendo relat&oacute;rios de problema no FreeBSD
+          </ulink>
+        </title>
+
+        <listitem>
+          <para>Este artigo descreve qual a melhor forma de formular e
+            de submeter um rel&aacute;torio de problemas para o Projeto
+            FreeBSD.</para>
+
+            <para>Est&aacute; em conformidade com a revis&atilde;o
+	      <literal>r38826</literal> do documento original em
+	      Ingl&ecirc;s.</para>
+        </listitem>
+      </itemizedlist>
+
 
       <itemizedlist>
 	<title>
@@ -720,7 +752,7 @@
     <para>Se voc&ecirc; chegou aqui, &eacute; fundamental que
       j&aacute; tenha lido o &primer;.  Se n&atilde;o o fez ainda,
       acesse-o em
-      <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/books/fdp-primer/">
+      <ulink url="http://server06.ebrandi.eti.br/books/fdp-primer/">
       Portugu&ecirc;s Brasileiro aqui</ulink> e em
       <ulink url="http://www.freebsd.org/doc/en_US.ISO8859-1/books/fdp-primer/">
       Ingl&ecirc;s aqui</ulink>.</para>
@@ -734,7 +766,7 @@
 	trabalho &eacute; diretamente realizado por editores de texto
 	que podem ser dos mais simples, como &man.vi.1; e &man.ee.1;,
 	&agrave; editores mais completos com &vim; e &emacs;.
-	O <acronym>FDP</acronym> aconselha uso do &emacs; em especial por ele ter
+	O <acronym>FDP</acronym> aconselha uso do &emacs;, em especial por ele ter
 	suporte &agrave; modo de opera&ccedil;&atilde;o <acronym>SGML</acronym> &mdash; o chamado <literal>SGML-mode</literal>.
 	No &adocbr; temos ainda que considerar a necessidade de trabalhar
 	com acentos em padr&atilde;o de entidades <acronym>XML</acronym>
@@ -814,23 +846,21 @@
 	O script corrige todas as regras que ele for capaz e dispara
 	um alerta para as regras que n&atilde;o conseguir corrigir.</para>
 
-      <para>A outra ferramenta que o contribuidor do DOC-BR
-	deve conhecer, ao menos o b&aacute;sico &eacute; o &man.cvs.1;.
-	Nosso projeto faz uso de um servidor &man.cvs.1; para armazenas
-	e possibilitar o trabalho paralelo das dezenas de
-	membros simult&acirc;neamente.  As vantagens do <acronym>CVS</acronym> &eacute; ter
-	um controle r&iacute;gido sobre vers&otilde;es,
-	podendo restaurar um arquivo err&ocirc;neamente
-	modificado &agrave; qualquer momento, e possibilitar trabalho
-	concorrente de diversos indiv&iacute;duos.  A desvantagem &eacute;
-	que &eacute; algo mais &agrave; se aprender, caso
-	voc&ecirc; n&atilde;o tenha familiaridade
-	com essa conhecida ferramenta.</para>
-
+	<para>A outra ferramenta que o contribuidor do DOC-BR deve conhecer,
+	  ao menos o b&aacute;sico, &eacute; o <application>git</application>.  Nosso
+	  projeto faz uso de um reposit&oacute;rio remoto do
+	  <application>git</application> para armazenar e possibilitar o
+	  trabalho paralelo das dezenas de membros simult&acirc;neamente.  As
+	  vantagens do Git &eacute; ter um controle r&iacute;gido sobre vers&otilde;es,
+	  podendo restaurar um arquivo err&ocirc;neamente modificado &agrave;
+	  qualquer momento, e possibilitar trabalho concorrente de
+	  diversos indiv&iacute;duos.  A desvantagem &eacute; que &eacute; algo mais &agrave; se
+	  aprender, caso voc&ecirc; n&atilde;o tenha familiaridade com essa
+	  ferramenta.</para>
     </sect1>
 
     <sect1 id="repositorio-cvs">
-      <title>Reposit&oacute;rio <acronym>CVS</acronym> do Projeto &docbr;</title>
+      <title>Reposit&oacute;rio Git do Projeto &docbr;</title>
 
       <para>&adocbr; adota o &man.cvs.1; de <quote>Brian Berliner</quote> como
 	sistema de vers&atilde;o concorrente para seu reposit&oacute;rio
