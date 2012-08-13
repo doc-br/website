@@ -253,6 +253,20 @@
       s&atilde;o os livros <emphasis>Handbook do FreeBSD</emphasis> e
       <emphasis>FAQ do FreeBSD</emphasis>.</para>
 
+    <para>Nessa nova fase do projeto, ap&oacute;s quase nove anos de
+      inatividade, estamos buscando a conclus&atilde;o da tradu&ccedil;&atilde;o e revis&atilde;o
+      dos documentos que estavam em andamento, como no caso do
+      &a.ptbr.p.fdpp;.  Mas, infelizmente, muitos dos documentos j&aacute;
+      traduzidos pelo projeto n&atilde;o foram incorporados &agrave; &aacute;rvore oficial
+      do &os; e acabaram ficando defasados quanto a vers&atilde;o oficial.
+      Esses documento precisaram ser traduzidos do zero novamente e
+      revisados, pois o trabalho de rastreamento de
+      <foreignphrase>commits</foreignphrase> e mudan&ccedil;as seria
+      invi&aacute;vel.</para>
+
+    <para>A seguir voc&ecirc; encontrar&aacute; os documentos que est&atilde;o sendo
+    trabalhados atualmente, seus status e planos para o futuro.</para>
+
     <sect1 id="documentos-integrados">
       <title>Integrados oficialmente ao Projeto FreeBSD</title>
 
@@ -270,8 +284,9 @@
 	    centralizado desempenhado pela
 	    <ulink url="http://www.freebsdbrasil.com.b/r">FreeBSD Brasil</ulink>
 	    e revisado pela comunidade.  Foi o pontap&eacute; inicial para o
-	    &adocbr;.  Hoje o conte&uacute;do precisa ser atualizado.
-	    Est&aacute; em conformidade com a revis&atilde;o
+	    &adocbr;.  Hoje o conte&uacute;do precisa ser atualizado.</para>
+	    
+	    <para>Est&aacute; em conformidade com a revis&atilde;o
 	    <literal>1.456</literal> do documento original em Ingl&ecirc;s.</para>
 	</listitem>
       </itemizedlist>
@@ -288,9 +303,11 @@
 	    aborda as diferentes maneiras como um
 	    indiv&iacute;duo, organiza&ccedil;&atilde;o ou grupo de usu&aacute;rios podem
 	    contribuir com o Projeto FreeBSD.  Este
-	    documento tamb&eacute;m precisa ser atualizado.  Est&aacute; em
-	    conformidade com a revis&atilde;o <literal>1.496</literal> do
-	    documento original em Ingl&ecirc;s.</para>
+	    documento tamb&eacute;m precisa ser atualizado.</para>
+	    
+	    <para>Est&aacute; em conformidade com a revis&atilde;o
+	    <literal>1.496</literal> do documento original em
+	    Ingl&ecirc;s.</para>
 	</listitem>
       </itemizedlist>
     </sect1>
@@ -662,6 +679,228 @@
       </itemizedlist>
     </sect1>
 
+    <sect1 id="documentos-defasados">
+      <title>Documentos traduzidos, mas que est&atilde;o defasados com
+        rela&ccedil;&atilde;o ao original</title>
+
+      <itemizedlist>
+        <title>
+          <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/explaining-bsd/">
+            Explicando FreeBSD
+          </ulink>
+        </title>
+
+        <listitem>
+          <para>No mundo do c&oacute;digo aberto, a palavra <quote>Linux</quote>
+            &eacute; quase um sin&ocirc;nimo de <quote>Sistema
+            Operacional</quote>, mas esse n&atilde;o &eacute; o
+            &uacute;nico sistema operacional <trademark>UNIX</trademark>
+            de c&oacute;digo aberto.  De acordo com o <ulink
+            url="http://www.leb.net/hzo/ioscount/data/r.9904.txt">
+            Contador de Sistemas Operacionais da Internet</ulink>, em
+            Abril de 1999 31.3% das m&aacute;quinas conectadas na rede
+            rodam Linux.  14.6% rodam BSD UNIX.  Alguns dos
+            respons&aacute;veis pelas maiores opera&ccedil;&otilde;es da
+            rede no mundo, como o <ulink
+            url="http://www.yahoo.com">Yahoo!</ulink>, rodam BSD.  O
+            servidor FTP mais requisitado do mundo, <ulink
+            url="ftp://ftp.cdrom.com/">ftp.cdrom.com</ulink>, usa BSD
+            pra transferir 1.4 TB de dados por dia.  &Eacute; claro, que
+            n&atilde;o se trata de um nicho de mercado:  O BSD &eacute; um
+            segredo muito bem guardado.</para>
+
+          <para>Ent&atilde;o, qual &eacute; o segredo?  Por que o BSD
+            n&atilde;o &eacute; melhor difundido, mais conhecido?  Esse
+            documento abordar&aacute; essas e outras
+            quest&otilde;es.</para>
+
+            <para>Est&aacute; em conformidade com a revis&atilde;o
+            <literal>1.7</literal> do documento original em Ingl&ecirc;s.</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <title>
+          <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/freebsd-questions/">
+            Como obter o melhor resultado para as suas perguntas na
+            lista de discuss&atilde;o FreeBSD-Question
+          </ulink>
+        </title>
+
+        <listitem>
+          <para>Este documento prove informa&ccedil;&otilde;es &uacute;teis
+            para as pessoas que planejam enviar um email para a lista de
+            discuss&atilde;o <literal>FreeBSD-questions</literal>.
+            Os avisos e conselhos foram elaborados com
+            o com objetivo de maximizar as chances de que o leitor receba
+            respostas &uacute;teis para as suas mensagens.</para>
+
+          <para>Este documento &eacute; enviado regularmente para a lista de
+            discuss&atilde;o FreeBSD-questions.  As dicas aqui mencionadas
+            s&atilde;o tamb&eacute;m indicadas
+            para a lista &afug;, e de forma geral para
+            qualquer outra lista de discuss&atilde;o
+            com grande tr&aacute;fego de e-mails semanais.</para>
+
+            <para>Est&aacute; em conformidade com a revis&atilde;o
+            <literal>1.2</literal> do documento original em Ingl&ecirc;s.</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <title>
+          <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/pxe/">
+            Guia de Jumpstart para o FreeBSD
+          </ulink>
+        </title>
+
+        <listitem>
+          <para>Este artigo detalha o m&eacute;todo utilizado para permitir que
+            se instale o FreeBSD em equipamentos que utilizem a tecnologia
+            Intel PXE para dar boot no equipamento atrav&eacute;s da rede.</para>
+
+            <para>Est&aacute; em conformidade com a revis&atilde;o
+            <literal>1.22</literal> do documento original em Ingl&ecirc;s.</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <title>
+          <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/hubs/">
+            Espelhando o FreeBSD
+          </ulink>
+        </title>
+
+        <listitem>
+          <para>Este &eacute; um artigo que trata sobre como espelhar o FreeBSD,
+            o mesmo esta em fase de elabora&ccedil;&atilde;o pelos coordenadores do
+            sites espelho.</para>
+
+            <para>Est&aacute; em conformidade com a revis&atilde;o
+            <literal>1.42</literal> do documento original em Ingl&ecirc;s.</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <title>
+          <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/solid-state/">
+            FreeBSD e Dispositivos de Estado S&oacute;lido
+          </ulink>
+        </title>
+
+        <listitem>
+          <para>Os sistemas Embedded possuem a vantagem de ter a sua
+            estabilidade aumentada devido a aus&ecirc;ncia completa de partes
+            m&oacute;veis (Discos rigidos).  Entretanto &eacute;
+            necess&aacute;rio levar em conta que geralmente estes dispositivos
+            possuem pouco espa&ccedil;o de disco dispon&iacute;vel,
+            al&eacute;m de terem na durabilidade da midia de
+            armazenamento outro fator cr&iacute;tico.
+            Este artigo aborda o uso de dispositivos de armazenamento em
+            estado s&oacute;lido na cria&ccedil;&atilde;o de sistemas
+            embedded.</para>
+
+            <para>Est&aacute; em conformidade com a revis&atilde;o
+            <literal>1.11</literal> do documento original em Ingl&ecirc;s.</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <title>
+          <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/diskless-x/">
+            Um guia sobre como implementar um terminal diskless X
+          </ulink>
+        </title>
+
+        <listitem>
+          <para>Retirado do artigo original:</para>
+            <blockquote>
+              <title>Um guia sobre como implementar um terminal diskless X</title>
+
+              <attribution>Escrito em primeira pessoa por <quote>Jerry
+                Kendall</quote></attribution>
+
+              <para>Com a ajuda de alguns amigos da lista FreeBSD-hackers, eu
+                pude criar um terminal X diskless.  A cria&ccedil;&atilde;o
+                do terminal X necessitou incialmente da cria&ccedil;&atilde;o
+                de um sistema diskless com utilit&aacute;rios minimos
+                montados via NFS.  Estes mesmos passos
+                foram utilizados para criar 2 sistemas diskless distintos.  O
+                primeiro &eacute; o <hostid role="fqdn">altair.example.com</hostid>.
+                Um terminal X diskless o qual eu executo no meu velho
+                386DX-40.  Ele possui um HD de 340 Mb, mas eu n&atilde;o quiz
+                mud&aacute;-lo.  Assim, ele da boot a partir do
+                <hostid role="fqdn">antares.example.com</hostid> atrav&eacute;s da
+                rede Ethernet.  O segundo sistema &eacute; um 486DX2-66.  Eu o
+                configurei um FreeBSD Diskless, o qual n&atilde;o utiliza o disco
+                local.  O servidor neste caso &eacute; uma SUN 670MP executando
+                Sun OS 4.1.3.  O mesmo procedimento de configura&ccedil;&atilde;o foi
+                necess&aacute;rio em ambos.</para>
+            </blockquote>
+
+            <para>Est&aacute; em conformidade com a revis&atilde;o
+            <literal>1.15</literal> do documento original em Ingl&ecirc;s.</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <title>
+          <ulink url="http://doc.fug.com.br/release/doc/pt_BR.ISO8859-1/early-adopter/">
+            Guia dos Novos Adeptos ao FreeBSD 5.X
+          </ulink>
+        </title>
+
+        <listitem>
+          <para>Guia de refer&ecirc;ncia para usu&aacute;rios migrando da
+            s&eacute;rie 4.<replaceable>X</replaceable> para
+            5.<replaceable>X</replaceable> ou superior.</para>
+
+            <para>Est&aacute; em conformidade com a revis&atilde;o
+            <literal>1.15</literal> do documento original em Ingl&ecirc;s.</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <title>
+          <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/dialup-firewall/">
+            Dialup firewalling com FreeBSD
+          </ulink>
+        </title>
+
+        <listitem>
+        <para>Este artigo documenta como configurar um firewall
+          utilizando uma conex&atilde;o discada com o FreeBSD e o IPFW, e
+          especificamente como implementar um firewall de
+          filtragem de pacotes em cima de um endere&ccedil;o IP atribuido
+          din&acirc;micamente.  Este documento n&atilde;o aborda a
+          configura&ccedil;&atilde;o da sua conex&atilde;o
+          PPP propriamente dita.</para>
+
+        <para>Est&aacute; em conformidade com a revis&atilde;o
+          <literal>1.32</literal> do documento original em Ingl&ecirc;s.</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <title>
+          <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/">
+            Utilizando o FreeBSD em Laptops
+          </ulink>
+        </title>
+
+        <listitem>
+          <para>FreeBSD trabalha bem em muitos laptops, com algumas
+            advert&ecirc;ncias.  Algumas quest&otilde;es
+            espec&iacute;ficas para rodar o &os; em laptops,
+            relacionando diferentes requerimentos de hardwares de
+            desktops, s&atilde;o discutidas neste documento.</para>
+
+            <para>Est&aacute; em conformidade com a revis&atilde;o
+            <literal>1.19</literal> do documento original em Ingl&ecirc;s.</para>
+        </listitem>
+      </itemizedlist>
+
+    </sect1>
 
     <sect1 id="objetivos-futuros">
       <title>Objetivos futuros (longo prazo) para o
@@ -894,100 +1133,71 @@
     </sect1>
 
     <sect1 id="repositorio-git">
-      <title>Reposit&oacute;rio Git do Projeto &docbr;</title>
+      <title>Reposit&oacute;rio Git do Projeto &adocbr;</title>
 
-      <para>&adocbr; adota o Git como
-        sistema de controle de vers&atilde;o para seu reposit&oacute;rio fonte.
-	Apesar de ter diferen&ccedil;as significativas com rela&ccedil;&atilde;o ao
-	sistema utilizado pelo projeto anteriormente, o
-	<acronym>CVS</acronym>, e mesmo com o utilizado pela &aacute;rvore
-	oficial do projeto &os;, o Subversion, o Git tem uma s&eacute;rie de
-	vantagens com rela&ccedil;&atilde;o a estes, entre elas est&aacute; seu desenho
-	distribu&iacute;do.
+      <para>O &adocbr; adota o Git como sistema de controle de vers&atilde;o
+        para seu reposit&oacute;rio fonte.  Apesar de ter diferen&ccedil;as
+        significativas com rela&ccedil;&atilde;o ao sistema utilizado pelo projeto
+        anteriormente, o <acronym>CVS</acronym>, e mesmo com o utilizado
+        pela &aacute;rvore oficial do projeto FreeBSD, o Subversion, o Git tem
+        uma s&eacute;rie de vantagens com rela&ccedil;&atilde;o a estes, entre elas est&aacute; seu
+        desenho distribu&iacute;do.</para>
 
-      <sect2 id="cvs-berlios">
-	<title>Reposit&oacute;rio remoto Git no GitHub</title>
+      <para>Diferente do <acronym>CVS</acronym>, o Git n&atilde;o est&aacute;
+        inclu&iacute;do na instala&ccedil;&atilde;o padr&atilde;o do FreeBSD e voc&ecirc; precisar&aacute;
+        instal&aacute;-lo no seu sistema para ter acesso ao reposit&oacute;rio
+        localmente:</para>
 
-	<para>O &adocbr; utiliza o <ulink
-	  url="https://github.com">GitHub</ulink> para hospedar seu
+      <screen>&prompt.user; <userinput>cd /usr/ports/devel/git && make install clean</userinput></screen>
+
+      <sect2 id="git-github">
+	<title>Hospedagem do Reposit&oacute;rio no GitHub</title>
+
+	<para>O &adocbr; utiliza o <ulink url="https://github.com/">
+	  GitHub</ulink>  para hospedar seu
 	  reposit&oacute;rio Git.  Ele &eacute; utilizado por grandes projetos de
-	  c&oacute;digo aberto e tem fun&ccedil;&otilde;es interessantes, como gr&aacute;ficos,
-	  <foreignphrase>feeds</foreignphrase>, wiki, entre outras.
+	  c&oacute;digo aberto e tem fun&ccedil;&otilde;es bastante &uacute;teis, como gr&aacute;ficos,
+	  feeds, wiki, entre outras.</para>
 
-	<para>Originalmente o DOC-BR criou seu ambiente de trabalho <acronym>CVS</acronym>
-	  hospedado no <ulink url="http://www.berlios.de">BerlioOS.de</ulink>,
-	  site de formento &agrave; desenvolvimento de software
-	  de c&oacute;digo aberto, similar ao Source Forge.  H&aacute;
-	  recursos estruturais e t&eacute;cnicos para
-	  utilizar um servidor <acronym>CVS</acronym> pr&oacute;prio, contudo por enquanto
-	  n&atilde;o h&aacute; qualquer justificativa pr&aacute;tica para o trabalho de
-	  migra&ccedil;&atilde;o do <ulink url="http://www.berlios.de">BerlioOS</ulink>
-	  para um servidor pr&oacute;prio do &afug;.  Ent&atilde;o hoje nosso <acronym>CVS</acronym>
-	  ainda fica no
-	  <ulink url="http://www.berlios.de">BerlioOS</ulink>.</para>
+	<para>Voc&ecirc; pode contribuir com o projeto de v&aacute;rias formas no
+	  GitHub, ou at&eacute; mesmo acessar o reposit&oacute;rio de forma an&ocirc;nima.
+	  Mas para contribuir de forma ativa, enviando seus 
+	  <foreignphrase>commits</foreignphrase>
+	  diretamente para o reposit&oacute;rio, ou mesmo para criar um
+	  <foreignphrase>fork</foreignphrase>  do
+	  projeto, voc&ecirc; precisa criar sua conta no servi&ccedil;o acessando
+	  <ulink url="https://github.com/signup/free">
+	  https://github.com/signup/free</ulink>.</para>
 
-	<para>Portanto para tornar-se membro ativo do grupo, voc&ecirc;
-	  deve criar sua conta no BerliOS, em
-	  <ulink url="http://developer.berlios.de/account/register.php">
-	  http://developer.berlios.de/account/register.php</ulink>.</para>
-
-	<para>Depois envie um e-mail para a lista de discuss&atilde;o da
-	  DOC-BR dizendo qual o seu nome de usu&aacute;rio no
-	  BerliOS, ou envie um e-mail em particular para
-	  <quote>Patrick Tracanelli</quote>, <quote>Edson Brandi</quote> ou
-	  <quote>M&aacute;rio Fujikawa</quote>, que s&atilde;o os tr&ecirc;s
-	  coordenadores do projeto.  Voc&ecirc; ser&aacute; associado
-	  ao DOC-BR no BerliOS.  Mas note que essa libera&ccedil;&atilde;o
-	  pode levar at&eacute; 24 horas ap&oacute;s seu nome de
-	  usu&aacute;rio ser associado ao projeto (em
-	  m&eacute;dia acontece de 6 em 6 horas).</para>
+	<para>&Eacute; de suma import&acirc;ncia que voc&ecirc; consulte a
+	  <ulink url="https://help.github.com/">ajuda do GitHub</ulink>
+	  para obter mais detalhes de seu funcionamento.</para>
       </sect2>
 
-      <sect2 id="cvs-anonimo">
-	<title>Acesso an&ocirc;nimo ao servidor <acronym>CVS</acronym></title>
+      <sect2 id="git-anonimo">
+	<title>Acesso an&ocirc;nimo ao servidor GitHub</title>
 
-	<para>Se voc&ecirc; n&atilde;o pretende contribuir de forma
-	  ativa e tem apenas curiosidade sobre o andamento
-	  do projeto, pode consultar o servidor <acronym>CVS</acronym>
-	  sem ter usu&aacute;rio e senha.  Para isso acesse-o
-	  como an&ocirc;nimo.  Os procedimentos s&atilde;o:</para>
+	<para>Se voc&ecirc; n&atilde;o pretende contribuir de forma ativa e tem
+	  apenas curiosidade sobre o andamento do projeto, pode
+	  consultar o servidor GitHub sem ter usu&aacute;rio e senha. Para isso
+	  acesse-o como an&ocirc;nimo. Os procedimentos s&atilde;o:</para>
 
-	<screen>&prompt.user; <userinput>touch ~/.cvspass</userinput>
-&prompt.user; <userinput>cvs -d:pserver:anonymous@cvs.doc-br.berlios.de:/cvsroot/doc-br login</userinput></screen>
+	  <screen>&prompt.user; <userinput>git clone git://github.com/doc-br/doc-br.git</userinput></screen>
 
-	<para>Ser&aacute; pedida senha de login.  D&ecirc; um enter
-	  com a senha em branco (n&atilde;o digite nada).</para>
+	<para>Entre no diret&oacute;rio do reposit&oacute;rio que acabou de ser
+	criado e mude para o branch  de desenvolvimento:</para>
 
-	<screen>Logging in to :pserver:anonymous@cvs.doc-br.berlios.de:2401/cvsroot/doc-br
-<prompt>CVS password:</prompt></screen>
+	  <screen>&prompt.user; <userinput>git checkout doc-br-2012-fdp</userinput></screen>
 
-	<!-- ATENCAO: DENTRO DE UM <screen> A IDENTACAO PODE - E DEVE
-	  SER QUEBRADA. ESSE E O UNICO CASO ONDEA IDENTACAO PODE SER QUEBRADA
-	  NESSE CASO ALINHA TUDO A EXTREMA ESQUERDA EXCETO A PRIMEIRA LINHA
-	  APOS A ENTRADA <screen>. TERMINE </screen> NA MESMA LINHA COMO
-	  SE FOSSE</para> -->
+	<para>A partir desse momento voc&ecirc; tem o reposit&oacute;rio completo
+	do &adocbr; para consulta.  Os m&oacute;dulos do &adocbr; est&atilde;o
+	divididos entre v&aacute;rios reposit&oacute;rios e voc&ecirc; precisar&aacute; clonar
+	cada um deles separadamente.</para>
 
-	<para>A partir desse momento voc&ecirc; estar&aacute; logado.
-	  Para obter os arquivos do projeto fa&ccedil;a
-	  <literal>checkout</literal> de cada um dos
-	  m&oacute;dulos que constituem a &aacute;rvore
-	  <acronym>CVS</acronym> do DOC-BR.</para>
+	<para>Para saber mais sobre os m&oacute;dulos dispon&iacute;veis leia a
+	pr&oacute;xima se&ccedil;&atilde;o.</para>
 
-	<screen>&prompt.user; cvs -d:pserver:anonymous@cvs.doc-br.berlios.de:/cvsroot/doc-br checkout <replaceable>nome do m&oacute;dulo</replaceable></screen>
-
-	<para>Por exemplo:</para>
-
-	<example>
-	  <title>Fazendo checkout de um m&oacute;dulo <acronym>CVS</acronym> na DOC-BR</title>
-	
-	  <screen>% cvs -d:pserver:anonymous@cvs.doc-br.berlios.de:/cvsroot/doc-br checkout pt_BR.ISO8859-1</screen>
-	</example>
-
-	<para>Para saber quais os m&oacute;dulos dispon&iacute;vels leia a
-	  pr&oacute;xima se&ccedil;&atilde;o.</para>
-      </sect2>
-
-      <sect2 id="organizacao-cvs">
+      <sect2 id="organizacao-modulos">
 	<title>Organiza&ccedil;&atilde;o do Reposit&oacute;rio <acronym>CVS</acronym></title>
 
 	<para>O reposit&oacute;rio <acronym>CVS</acronym> do Projeto de Documenta&ccedil;&atilde;o
