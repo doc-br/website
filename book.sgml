@@ -846,30 +846,73 @@
 	O script corrige todas as regras que ele for capaz e dispara
 	um alerta para as regras que n&atilde;o conseguir corrigir.</para>
 
-	<para>A outra ferramenta que o contribuidor do DOC-BR deve conhecer,
-	  ao menos o b&aacute;sico, &eacute; o <application>git</application>.  Nosso
-	  projeto faz uso de um reposit&oacute;rio remoto do
-	  <application>git</application> para armazenar e possibilitar o
-	  trabalho paralelo das dezenas de membros simult&acirc;neamente.  As
-	  vantagens do Git &eacute; ter um controle r&iacute;gido sobre vers&otilde;es,
-	  podendo restaurar um arquivo err&ocirc;neamente modificado &agrave;
-	  qualquer momento, e possibilitar trabalho concorrente de
-	  diversos indiv&iacute;duos.  A desvantagem &eacute; que &eacute; algo mais &agrave; se
-	  aprender, caso voc&ecirc; n&atilde;o tenha familiaridade com essa
-	  ferramenta.</para>
+      <para>A outra ferramenta que o contribuidor do DOC-BR deve conhecer,
+	ao menos o b&aacute;sico, &eacute; o <application>git</application>.  Nosso
+	projeto faz uso de um reposit&oacute;rio
+	<application>git</application> para armazenar e possibilitar o
+	trabalho paralelo das dezenas de membros simult&acirc;neamente.  As
+	vantagens do Git &eacute; ter um controle r&iacute;gido sobre vers&otilde;es,
+	podendo restaurar um arquivo err&ocirc;neamente modificado &agrave;
+	qualquer momento, e possibilitar trabalho concorrente de
+	diversos indiv&iacute;duos.  A desvantagem &eacute; que &eacute; algo mais &agrave; se
+	aprender, caso voc&ecirc; n&atilde;o tenha familiaridade com essa
+	ferramenta.</para>
+
+      <para>Por &uacute;ltimo, o m&eacute;todo de comunica&ccedil;&atilde;o entre todos os membros
+        do DOC-BR &eacute; atrav&eacute;s de correio eletr&ocirc;nico, especificamente a
+        lista de discuss&atilde;o DOC dispon&iacute;vel na &fug;. Saiba como participar
+        da lista na se&ccedil;&atilde;o seguinte deste documento.</para>
     </sect1>
 
-    <sect1 id="repositorio-cvs">
+    <sect1 id="lista-docbr">
+      <title>Lista DOC-BR, o m&eacute;todo de comunica&ccedil;&atilde;o prim&aacute;rio do
+        Projeto.</title>
+
+      <para>Os participantes do Projeto DOC-BR fazem uso dessa <ulink
+        url="https://www.fug.com.br/mailman/listinfo/doc">lista de
+        discuss&atilde;o</ulink> para interagir, discutir e decidir cada etapa
+        de trabalho do esfor&ccedil;o de tradu&ccedil;&atilde;o para Portugu&ecirc;s Brasileiro da
+	documenta&ccedil;&atilde;o oficial do FreeBSD.</para>
+
+      <para>Outras converas sobre metodologia e decis&otilde;es pr&aacute;ticas de
+        tradu&ccedil;&otilde;es, interpreta&ccedil;&otilde;es de texto, grafia, gram&aacute;tica e
+        conformidade/atualiza&ccedil;&atilde;o do gloss&aacute;rio de express&otilde;es comuns &agrave;s
+        tradu&ccedil;&otilde;es tamb&eacute;m se passam <ulink
+        url="https://www.fug.com.br/mailman/listinfo/doc">nesta
+        lista</ulink>.</para>
+
+      <para>A lista chama-se apenas <emphasis>doc</emphasis>, e &eacute;
+        hospedada diretamente na infra-estrutura da FUG-BR.  Se voc&ecirc; tem
+	d&uacute;vidas, cr&iacute;ticas ou sugest&otilde;es acera do Projeto DOC-BR, e
+        principalmente se quer se tornar parte desse esfor&ccedil;o,
+	cadastre-se na lista.  Ela pode ser acessada <ulink
+	url="https://www.fug.com.br/mailman/listinfo/doc">aqui</ulink>.</para>
+
+      <para>Para se cadastrar nesta lista, acesse sua interface
+        <literal>Web</literal> <ulink
+        url="https://www.fug.com.br/mailman/listinfo/doc">aqui</ulink>.</para>
+    </sect1>
+
+    <sect1 id="repositorio-git">
       <title>Reposit&oacute;rio Git do Projeto &docbr;</title>
 
-      <para>&adocbr; adota o &man.cvs.1; de <quote>Brian Berliner</quote> como
-	sistema de vers&atilde;o concorrente para seu reposit&oacute;rio
-	fonte.  &Eacute; a vers&atilde;o do <acronym>CVS</acronym> dispon&iacute;vel na base do &os; e tamb&eacute;m
-	na maioria dos outros sistemas de c&oacute;digo aberto
-	que adotam <acronym>CVS</acronym>.</para>
+      <para>&adocbr; adota o Git como
+        sistema de controle de vers&atilde;o para seu reposit&oacute;rio fonte.
+	Apesar de ter diferen&ccedil;as significativas com rela&ccedil;&atilde;o ao
+	sistema utilizado pelo projeto anteriormente, o
+	<acronym>CVS</acronym>, e mesmo com o utilizado pela &aacute;rvore
+	oficial do projeto &os;, o Subversion, o Git tem uma s&eacute;rie de
+	vantagens com rela&ccedil;&atilde;o a estes, entre elas est&aacute; seu desenho
+	distribu&iacute;do.
 
       <sect2 id="cvs-berlios">
-	<title>Servidor <acronym>CVS</acronym> hospedado no BerliOS</title>
+	<title>Reposit&oacute;rio remoto Git no GitHub</title>
+
+	<para>O &adocbr; utiliza o <ulink
+	  url="https://github.com">GitHub</ulink> para hospedar seu
+	  reposit&oacute;rio Git.  Ele &eacute; utilizado por grandes projetos de
+	  c&oacute;digo aberto e tem fun&ccedil;&otilde;es interessantes, como gr&aacute;ficos,
+	  <foreignphrase>feeds</foreignphrase>, wiki, entre outras.
 
 	<para>Originalmente o DOC-BR criou seu ambiente de trabalho <acronym>CVS</acronym>
 	  hospedado no <ulink url="http://www.berlios.de">BerlioOS.de</ulink>,
