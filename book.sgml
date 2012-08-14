@@ -358,224 +358,7 @@
 
       <!-- # Documentos que estavam em fase de revisao, mas ainda nao
              existe previsao para serem atualizados na nova fase.
-	     HOWTO: Reposicionar para nova area.
-
-      <itemizedlist>
-	<title>
-	  <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/explaining-bsd/">
-	    Explicando FreeBSD
-	  </ulink>
-	</title>
-
-	<listitem>
-	  <para>No mundo do c&oacute;digo aberto, a palavra <quote>Linux</quote>
-	    &eacute; quase um sin&ocirc;nimo de <quote>Sistema
-	    Operacional</quote>, mas esse n&atilde;o &eacute; o
-	    &uacute;nico sistema operacional <trademark>UNIX</trademark>
-	    de c&oacute;digo aberto.  De acordo com o <ulink
-	    url="http://www.leb.net/hzo/ioscount/data/r.9904.txt">
-	    Contador de Sistemas Operacionais da Internet</ulink>, em
-	    Abril de 1999 31.3% das m&aacute;quinas conectadas na rede
-	    rodam Linux.  14.6% rodam BSD UNIX.  Alguns dos
-	    respons&aacute;veis pelas maiores opera&ccedil;&otilde;es da
-	    rede no mundo, como o <ulink
-	    url="http://www.yahoo.com">Yahoo!</ulink>, rodam BSD.  O
-	    servidor FTP mais requisitado do mundo, <ulink
-	    url="ftp://ftp.cdrom.com/">ftp.cdrom.com</ulink>, usa BSD
-	    pra transferir 1.4 TB de dados por dia.  &Eacute; claro, que
-	    n&atilde;o se trata de um nicho de mercado:  O BSD &eacute; um
-	    segredo muito bem guardado.</para>
-
-	  <para>Ent&atilde;o, qual &eacute; o segredo?  Por que o BSD
-	    n&atilde;o &eacute; melhor difundido, mais conhecido?  Esse
-	    documento abordar&aacute; essas e outras
-	    quest&otilde;es.</para>
-
-	    <para>Est&aacute; em conformidade com a revis&atilde;o
-	    <literal>1.7</literal> do documento original em Ingl&ecirc;s.</para>
-	</listitem>
-      </itemizedlist>
-
-      <itemizedlist>
-	<title>
-	  <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/freebsd-questions/">
-	    Como obter o melhor resultado para as suas perguntas na
-	    lista de discuss&atilde;o FreeBSD-Question
-	  </ulink>
-	</title>
-
-	<listitem>
-	  <para>Este documento prove informa&ccedil;&otilde;es &uacute;teis
-	    para as pessoas que planejam enviar um email para a lista de
-	    discuss&atilde;o <literal>FreeBSD-questions</literal>.
-	    Os avisos e conselhos foram elaborados com
-	    o com objetivo de maximizar as chances de que o leitor receba
-	    respostas &uacute;teis para as suas mensagens.</para>
-
-	  <para>Este documento &eacute; enviado regularmente para a lista de
-      	    discuss&atilde;o FreeBSD-questions.  As dicas aqui mencionadas
-	    s&atilde;o tamb&eacute;m indicadas
-	    para a lista &afug;, e de forma geral para
-	    qualquer outra lista de discuss&atilde;o
-	    com grande tr&aacute;fego de e-mails semanais.</para>
-
-	    <para>Est&aacute; em conformidade com a revis&atilde;o
-	    <literal>1.2</literal> do documento original em Ingl&ecirc;s.</para>
-	</listitem>
-      </itemizedlist>
-
-      <itemizedlist>
-	<title>
-	  <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/pxe/">
-	    Guia de Jumpstart para o FreeBSD
-	  </ulink>
-	</title>
-
-	<listitem>
-	  <para>Este artigo detalha o m&eacute;todo utilizado para permitir que
-	    se instale o FreeBSD em equipamentos que utilizem a tecnologia
-	    Intel PXE para dar boot no equipamento atrav&eacute;s da rede.</para>
-
-	    <para>Est&aacute; em conformidade com a revis&atilde;o
-	    <literal>1.22</literal> do documento original em Ingl&ecirc;s.</para>
-	</listitem>
-      </itemizedlist>
-
-      <itemizedlist>
-	<title>
-	  <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/hubs/">
-	    Espelhando o FreeBSD
-	  </ulink>
-	</title>
-
-	<listitem>
-	  <para>Este &eacute; um artigo que trata sobre como espelhar o FreeBSD,
-	    o mesmo esta em fase de elabora&ccedil;&atilde;o pelos coordenadores do
-	    sites espelho.</para>
-
-	    <para>Est&aacute; em conformidade com a revis&atilde;o
-	    <literal>1.42</literal> do documento original em Ingl&ecirc;s.</para>
-	</listitem>
-      </itemizedlist>
-
-      <itemizedlist>
-	<title>
-	  <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/solid-state/">
-	    FreeBSD e Dispositivos de Estado S&oacute;lido
-	  </ulink>
-	</title>
-
-	<listitem>
-	  <para>Os sistemas Embedded possuem a vantagem de ter a sua
-	    estabilidade aumentada devido a aus&ecirc;ncia completa de partes
-	    m&oacute;veis (Discos rigidos).  Entretanto &eacute;
-	    necess&aacute;rio levar em conta que geralmente estes dispositivos
-	    possuem pouco espa&ccedil;o de disco dispon&iacute;vel,
-	    al&eacute;m de terem na durabilidade da midia de
-	    armazenamento outro fator cr&iacute;tico.
-	    Este artigo aborda o uso de dispositivos de armazenamento em
-	    estado s&oacute;lido na cria&ccedil;&atilde;o de sistemas
-	    embedded.</para>
-
-	    <para>Est&aacute; em conformidade com a revis&atilde;o
-	    <literal>1.11</literal> do documento original em Ingl&ecirc;s.</para>
-	</listitem>
-      </itemizedlist>
-
-      <itemizedlist>
-	<title>
-	  <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/diskless-x/">
-	    Um guia sobre como implementar um terminal diskless X
-	  </ulink>
-	</title>
-
-	<listitem>
-	  <para>Retirado do artigo original:</para>
-	    <blockquote>
-	      <title>Um guia sobre como implementar um terminal diskless X</title>
-	
-	      <attribution>Escrito em primeira pessoa por <quote>Jerry
-		Kendall</quote></attribution>
-
-	      <para>Com a ajuda de alguns amigos da lista FreeBSD-hackers, eu
-	    	pude criar um terminal X diskless.  A cria&ccedil;&atilde;o
-	    	do terminal X necessitou incialmente da cria&ccedil;&atilde;o
-	    	de um sistema diskless com utilit&aacute;rios minimos
-	    	montados via NFS.  Estes mesmos passos
-	    	foram utilizados para criar 2 sistemas diskless distintos.  O
-	    	primeiro &eacute; o <hostid role="fqdn">altair.example.com</hostid>.
-	    	Um terminal X diskless o qual eu executo no meu velho
-	    	386DX-40.  Ele possui um HD de 340 Mb, mas eu n&atilde;o quiz
-	    	mud&aacute;-lo.  Assim, ele da boot a partir do
-	    	<hostid role="fqdn">antares.example.com</hostid> atrav&eacute;s da
-	    	rede Ethernet.  O segundo sistema &eacute; um 486DX2-66.  Eu o
-	    	configurei um FreeBSD Diskless, o qual n&atilde;o utiliza o disco
-	    	local.  O servidor neste caso &eacute; uma SUN 670MP executando
-	    	Sun OS 4.1.3.  O mesmo procedimento de configura&ccedil;&atilde;o foi
-	    	necess&aacute;rio em ambos.</para>
-	    </blockquote>
-
-	    <para>Est&aacute; em conformidade com a revis&atilde;o
-	    <literal>1.15</literal> do documento original em Ingl&ecirc;s.</para>
-	</listitem>
-      </itemizedlist>
-
-      <itemizedlist>
-	<title>
-	  <ulink url="http://doc.fug.com.br/release/doc/pt_BR.ISO8859-1/early-adopter/">
-	    Guia dos Novos Adeptos ao FreeBSD 5.X
-	  </ulink>
-	</title>
-
-	<listitem>
-	  <para>Guia de refer&ecirc;ncia para usu&aacute;rios migrando da
-	    s&eacute;rie 4.<replaceable>X</replaceable> para
-	    5.<replaceable>X</replaceable> ou superior.</para>
-
-	    <para>Est&aacute; em conformidade com a revis&atilde;o
-	    <literal>1.15</literal> do documento original em Ingl&ecirc;s.</para>
-	</listitem>
-      </itemizedlist>
-
-      <itemizedlist>
-	<title>
-	  <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/dialup-firewall/">
-	    Dialup firewalling com FreeBSD
-	  </ulink>
-	</title>
-
-	<listitem>
-	<para>Este artigo documenta como configurar um firewall
-	  utilizando uma conex&atilde;o discada com o FreeBSD e o IPFW, e
-	  especificamente como implementar um firewall de
-	  filtragem de pacotes em cima de um endere&ccedil;o IP atribuido
-	  din&acirc;micamente.  Este documento n&atilde;o aborda a
-	  configura&ccedil;&atilde;o da sua conex&atilde;o
-	  PPP propriamente dita.</para>
-
-	<para>Est&aacute; em conformidade com a revis&atilde;o
-	  <literal>1.32</literal> do documento original em Ingl&ecirc;s.</para>
-	</listitem>
-      </itemizedlist>
-
-      <itemizedlist>
-	<title>
-	  <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/">
-	    Utilizando o FreeBSD em Laptops
-	  </ulink>
-	</title>
-
-	<listitem>
-	  <para>FreeBSD trabalha bem em muitos laptops, com algumas
-	    advert&ecirc;ncias.  Algumas quest&otilde;es
-	    espec&iacute;ficas para rodar o &os; em laptops,
-	    relacionando diferentes requerimentos de hardwares de
-	    desktops, s&atilde;o discutidas neste documento.</para>
-
-	    <para>Est&aacute; em conformidade com a revis&atilde;o
-	    <literal>1.19</literal> do documento original em Ingl&ecirc;s.</para>
-	</listitem>
-      </itemizedlist>
+	     TODO: Reposicionar para nova area.
 
       Fim da lista -->
 
@@ -1146,9 +929,10 @@
       <para>Diferente do <acronym>CVS</acronym>, o Git n&atilde;o est&aacute;
         inclu&iacute;do na instala&ccedil;&atilde;o padr&atilde;o do FreeBSD e voc&ecirc; precisar&aacute;
         instal&aacute;-lo no seu sistema para ter acesso ao reposit&oacute;rio
-        localmente:</para>
-
-      <screen>&prompt.user; <userinput>cd /usr/ports/devel/git && make install clean</userinput></screen>
+        localmente.  Voc&ecirc; pode adicion&aacute;-lo ao seu sistema atrav&eacute;s do
+	<application>pkg_add</application> ou a partir do
+	<literal>ports</literal> em
+	<filename>/usr/ports/devel/git</filename></para>
 
       <sect2 id="git-github">
 	<title>Hospedagem do Reposit&oacute;rio no GitHub</title>
@@ -1185,12 +969,13 @@
 	  <screen>&prompt.user; <userinput>git clone git://github.com/doc-br/doc-br.git</userinput></screen>
 
 	<para>Entre no diret&oacute;rio do reposit&oacute;rio que acabou de ser
-	criado e mude para o branch  de desenvolvimento:</para>
+	  criado e mude para o <foreignphrase>branch</foreignphrase>
+	  de desenvolvimento:</para>
 
 	  <screen>&prompt.user; <userinput>git checkout doc-br-2012-fdp</userinput></screen>
 
 	<para>A partir desse momento voc&ecirc; tem o reposit&oacute;rio completo
-	do &adocbr; para consulta.  Os m&oacute;dulos do &adocbr; est&atilde;o
+	do &adocbr; dispon&iacute;vel.  Os m&oacute;dulos do &adocbr; est&atilde;o
 	divididos entre v&aacute;rios reposit&oacute;rios e voc&ecirc; precisar&aacute; clonar
 	cada um deles separadamente.</para>
 
@@ -1198,68 +983,68 @@
 	pr&oacute;xima se&ccedil;&atilde;o.</para>
 
       <sect2 id="organizacao-modulos">
-	<title>Organiza&ccedil;&atilde;o do Reposit&oacute;rio <acronym>CVS</acronym></title>
+	<title>Organiza&ccedil;&atilde;o dos Reposit&oacute;rios Git</title>
 
-	<para>O reposit&oacute;rio <acronym>CVS</acronym> do Projeto de Documenta&ccedil;&atilde;o
-	  do FreeBSD em Portugu&ecirc;s Brasileiro no
-	  BerliOS disp&otilde;e dos seguintes
-	  m&oacute;dulos (diret&oacute;rios):</para>
+	<para>Os m&oacute;dulos do Projeto de Documenta&ccedil;&atilde;o do FreeBSD
+	  em Portugu&ecirc;s Brasileiro, hospedados no GitHub, foram
+	  divididos em reposit&oacute;rios e podem ser acessados
+	  separadamente.  Os m&oacute;dulos dispon&iacute;veis e a finalidades deles
+	  est&atilde;o descritos a seguir:</para>
 
 	<itemizedlist>
-	  <title>doc-br/</title>
+	  <title><ulink url="https://github.com/doc-br/doc-br">doc-br/</ulink></title>
 
 	  <listitem>
-	    <para>Utilizado apenas pelo pr&oacute;prio servidor
-	      <acronym>CVS</acronym> e pelo administrador do <acronym>CVS</acronym>, n&atilde;o
-	      &eacute; algo com que os membros do projeto devam
-	      se preocupar.</para>
+	      <para>Este &eacute; o reposit&oacute;rio que cont&eacute;m os fontes em SGML dos
+		artigos e livros para tradu&ccedil;&atilde;o e revis&atilde;o.</para>
+	  </listitem>
+	  <listitem>
+	    <itemizedlist>
+	      <title>pt_BR.ISO8859-1/</title>
+
+	      <listitem>
+	        <para>Trata-se da estrutura <acronym>ISO</acronym> de
+	          todos os livros e artigos trabalhados
+	          pelo <acronym>FDP</acronym>, na l&iacute;ngua
+	          Portugu&ecirc;s Brasileiro. &Eacute; a estrutura importada
+	          junto ao <acronym>CVS</acronym> oficial do &os; sempre que
+	          cada novo artigo ou livro est&aacute; pronto.  A
+	          constitui&ccedil;&atilde;o desse documento &eacute; r&iacute;gidamente
+	          disposta no padr&atilde;o que voc&ecirc; leu no &primer;
+	          e que portanto j&aacute; conhece.
+	          Como n&atilde;o &eacute; particular &agrave; DOC-BR n&atilde;o ser&aacute;
+	          documentado aqui.  &Eacute; essencial que voc&ecirc;
+	          tenha lido o &primer;.</para>
+	      </listitem>
+	      <listitem>
+	        <para>Essa estrutura no sistema &eacute; o
+	          <filename class="directory">/usr/doc/pt_BR.ISO8859-1/</filename> quando o
+	          usu&aacute;rio sincronizou a documenta&ccedil;&atilde;o do sistema
+	          atrav&eacute;s de <application>CSup</application> por exemplo.
+	          O resultado constru&iacute;do dessa estrutura
+	          (documentos criados/compilados) s&atilde;o instalados
+	          sob <filename  class="directory">/usr/share/doc/pt_BR.ISO8859-1/</filename>
+	          em um sistema &os; com documenta&ccedil;&atilde;o
+	          instalada (por <acronym>CD-ROM</acronym> por exemplo).
+	          Note que <filename class="directory">/usr/doc/pt_BR.ISO8859-1/</filename>
+	          &eacute; distinto de
+	          <filename class="directory">/usr/share/doc/pt_BR.ISO8859-1</filename>.
+	          O primeiro s&oacute; est&aacute; dispon&iacute;vel se o usu&aacute;rio
+	          obter via sincronia com reposit&oacute;rio &os;,
+	          e trata-se dos <acronym>SGML</acronym>, entidades e <acronym>DTD</acronym>s
+	          (ou seja, o c&oacute;digo fonte da documenta&ccedil;&atilde;o),
+	          enquanto o segundo &eacute; o resultado pronto
+	          (j&aacute; compilado) em formato <literal>HTML</literal>,
+	          texto plano, <literal>PDF</literal>, <literal>PostScript</literal>
+	          e outros, que pode ser instalado do <acronym>CD-ROM</acronym> por exemplo.</para>
+	      </listitem>
+	    </itemizedlist>
 	  </listitem>
 	</itemizedlist>
 
-	<itemizedlist>
-	  <title>pt_BR.ISO8859-1/</title>
-
-	  <listitem>
-	    <para>Trata-se da estrutura <acronym>ISO</acronym> de
-	      todos os livros e artigos trabalhados
-	      pelo <acronym>FDP</acronym>, na l&iacute;ngua
-	      Portugu&ecirc;s Brasileiro. &Eacute; a estrutura importada
-	      junto ao <acronym>CVS</acronym> oficial do &os; sempre que
-	      cada novo artigo ou livro est&aacute; pronto.  A
-	      constitui&ccedil;&atilde;o desse documento &eacute; r&iacute;gidamente
-	      disposta no padr&atilde;o que voc&ecirc; leu no &primer;
-	      e que portanto j&aacute; conhece.
-	      Como n&atilde;o &eacute; particular &agrave; DOC-BR n&atilde;o ser&aacute;
-	      documentado aqui.  &Eacute; essencial que voc&ecirc;
-	      tenha lido o &primer;.</para>
-	  </listitem>
-	  <listitem>
-	    <para>Essa estrutura no sistema &eacute; o
-	      <filename class="directory">/usr/doc/pt_BR.ISO8859-1/</filename> quando o
-	      usu&aacute;rio sincronizou a documenta&ccedil;&atilde;o do sistema
-	      atrav&eacute;s de <application>CSup</application> por exemplo.
-	      O resultado constru&iacute;do dessa estrutura
-	      (documentos criados/compilados) s&atilde;o instalados
-	      sob <filename  class="directory">/usr/share/doc/pt_BR.ISO8859-1/</filename>
-	      em um sistema &os; com documenta&ccedil;&atilde;o
-	      instalada (por <acronym>CD-ROM</acronym> por exemplo).
-	      Note que <filename class="directory">/usr/doc/pt_BR.ISO8859-1/</filename>
-	      &eacute; distinto de
-	      <filename class="directory">/usr/share/doc/pt_BR.ISO8859-1</filename>.
-	      O primeiro s&oacute; est&aacute; dispon&iacute;vel se o usu&aacute;rio
-	      obter via sincronia com reposit&oacute;rio &os;,
-	      e trata-se dos <acronym>SGML</acronym>, entidades e <acronym>DTD</acronym>s
-	      (ou seja, o c&oacute;digo fonte da documenta&ccedil;&atilde;o),
-	      enquanto o segundo &eacute; o resultado pronto
-	      (j&aacute; compilado) em formato <literal>HTML</literal>,
-	      texto plano, <literal>PDF</literal>, <literal>PostScript</literal>
-	      e outros, que pode ser instalado do <acronym>CD-ROM</acronym> por exemplo.</para>
-	  </listitem>
-	</itemizedlist>
-
 
 	<itemizedlist>
-	  <title>tools/</title>
+	  <title><ulink url="https://github.com/doc-br/Tools">tools/</ulink></title>
 
 	  <listitem>
 	    <para>Neste m&oacute;dulo ficam os scripts e arquivos
@@ -1346,7 +1131,7 @@
 
 
 	<itemizedlist>
-	  <title>glossario/</title>
+	  <title><ulink url="https://github.com/doc-br/Glossario">glossario/</ulink></title>
 
 	  <listitem>
 	    <para>Trata-se do gloss&aacute;rio de palavras e express&otilde;es
@@ -1426,6 +1211,9 @@
 	  </listitem>
 	</itemizedlist>
 
+	<!-- Modulo nao esta mais disponivel
+	     TODO: remover esta descricao no 
+	     futuro.
 
 	<itemizedlist>
 	  <title>src/</title>
@@ -1450,6 +1238,8 @@
 	      sendo trabalhado sob este m&oacute;dulo.</para>
 	  </listitem>
 	</itemizedlist>
+
+	Fim da area a ser removida -->
       </sect2>
     </sect1>
 
