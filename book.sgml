@@ -122,7 +122,7 @@
 	no time ser&aacute; valiosa.  Para tal, o primeiro passo
 	&eacute; ler atentamente o &a.ptbr.p.fdpp;, dispon&iacute;vel
 	em <ulink
-	  url="http://server06.ebrandi.eti.br/books/fdp-primer/">
+	  url="http://www.freebsd.org/doc/pt_BR.ISO8859-1/books/fdp-primer/">
 	Portugu&ecirc;s Brasileiro aqui</ulink> e em
 	<ulink url="http://www.freebsd.org/doc/en_US.ISO8859-1/books/fdp-primer/">
 	Ingl&ecirc;s aqui</ulink>.</para>
@@ -278,13 +278,14 @@
 	</title>
 
 	<listitem>
-	  <para>Tratam-se das Perguntas Mais Frequentes sobre o FreeBSD, &eacute;
-	    originalmente o primeiro trabalho completo terminado pelo
-	    &adocbr; em um esfor&ccedil;o
-	    centralizado desempenhado pela
-	    <ulink url="http://www.freebsdbrasil.com.b/r">FreeBSD Brasil</ulink>
-	    e revisado pela comunidade.  Foi o pontap&eacute; inicial para o
-	    &adocbr;.  Hoje o conte&uacute;do precisa ser atualizado.</para>
+	  <para>Tratam-se das Perguntas Mais Frequentes sobre o
+	    FreeBSD, &eacute; originalmente o primeiro trabalho completo
+	    terminado pelo &adocbr; em um esfor&ccedil;o centralizado
+	    desempenhado pela <ulink
+	    url="http://www.freebsdbrasil.com.b/r">FreeBSD
+	    Brasil</ulink> e revisado pela comunidade.  Foi o pontap&eacute;
+	    inicial para o &adocbr;.  Hoje o conte&uacute;do precisa ser
+	    atualizado.</para>
 	    
 	    <para>Est&aacute; em conformidade com a revis&atilde;o
 	    <literal>1.456</literal> do documento original em Ingl&ecirc;s.</para>
@@ -300,78 +301,65 @@
 
 	<listitem>
 	  <para>Artigo escrito por <quote>Jordan K. Hubbard</quote>
-	    aborda as diferentes maneiras como um
-	    indiv&iacute;duo, organiza&ccedil;&atilde;o ou grupo de usu&aacute;rios podem
-	    contribuir com o Projeto FreeBSD.  Este
-	    documento tamb&eacute;m precisa ser atualizado.</para>
+	    aborda as diferentes maneiras como um indiv&iacute;duo,
+	    organiza&ccedil;&atilde;o ou grupo de usu&aacute;rios podem contribuir com o
+	    Projeto FreeBSD.</para>
 	    
 	    <para>Est&aacute; em conformidade com a revis&atilde;o
-	    <literal>1.496</literal> do documento original em
+	    <literal>r38826</literal> do documento original em
 	    Ingl&ecirc;s.</para>
 	</listitem>
       </itemizedlist>
-    </sect1>
-
-    <sect1 id="documentos-em-revisao">
-      <title>Atualmente em fase de revis&atilde;o (&agrave; ser integrados em breve)</title>
-
-      <itemizedlist>
-	<title>
-	  <ulink url="http://server06.ebrandi.eti.br/books/fdp-primer/">
-	    FDP Primer &mdash; &a.ptbr.p.fdpp; para novos colaboradores
-	  </ulink>
-	</title>
-
-	<listitem>
-	  <para>Este &a.ptbr.p.fdpp; cobre tudo o que voc&ecirc; precisa
-	    saber para come&ccedil;ar a contribuir com o Projeto de
-	    Documenta&ccedil;&atilde;o do FreeBSD, desde as ferramentas e
-	    softwares que voc&ecirc; estar&aacute; utilizando (tanto
-	    os obrigat&oacute;rios quanto os recomendados) &agrave;
-	    filosofia por tr&aacute;s do projeto de
-	    documenta&ccedil;&atilde;o.</para>
-
-	    <para>Est&aacute; em conformidade com a revis&atilde;o
-	    <literal>r38826</literal> do documento original em Ingl&ecirc;s.</para>
-	</listitem>
-      </itemizedlist>
-
-      <itemizedlist>
-	<title>
-	  <ulink
-	    url="http://server06.ebrandi.eti.br/articles/linux-users/">
-	    Guia R&aacute;pido do FreeBSD para Usu&aacute;rios Linux
-	  </ulink>
-	</title>
-
-	<listitem>
-	  <para>Este documento tem por objetivo tentar destacar as principais
-	    diferen&ccedil;as entre os dois sistemas operacionais, indo desde
-	    gerenciamento de pacotes, at&eacute; os m&eacute;todos de atualiza&ccedil;&atilde;o do
-	    sistema.</para>
-
-	  <para>Est&aacute; em conformidade com a revis&atilde;o
-	    <literal>r39170</literal> do documento original em
-	    Ingl&ecirc;s.</para>
-	</listitem>
-      </itemizedlist>
-
-      <!-- # Documentos que estavam em fase de revisao, mas ainda nao
-             existe previsao para serem atualizados na nova fase.
-	     TODO: Reposicionar para nova area.
-
-      Fim da lista -->
-
-    </sect1>
-
-
-    <sect1 id="documentos-em-traducao">
-      <title>Em trabalho de tradu&ccedil;&atilde;o</title>
 
       <itemizedlist>
         <title>
           <ulink
-            url="http://server06.ebrandi.eti.br/articles/problem-reports/">
+	    url="http://www.freebsd.org/doc/pt_BR.ISO8859-1/books/fdp-primer/">
+            FDP Primer &mdash; &a.ptbr.p.fdpp; para novos
+	    colaboradores
+          </ulink>
+        </title>
+
+        <listitem>
+          <para>Este &a.ptbr.p.fdpp; cobre tudo o que voc&ecirc; precisa
+            saber para come&ccedil;ar a contribuir com o Projeto de
+            Documenta&ccedil;&atilde;o do FreeBSD, desde as ferramentas e
+            softwares que voc&ecirc; estar&aacute; utilizando (tanto
+            os obrigat&oacute;rios quanto os recomendados) &agrave;
+            filosofia por tr&aacute;s do projeto de
+            documenta&ccedil;&atilde;o.</para>
+
+            <para>Est&aacute; em conformidade com a revis&atilde;o
+            <literal>r38826</literal> do documento original em
+	    Ingl&ecirc;s.</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <title>
+          <ulink
+            url="http://www.freebsd.org/doc/pt_BR.ISO8859-1/articles/new-users/">
+            Guia R&aacute;pido do FreeBSD para Usu&aacute;rios Linux
+          </ulink>
+        </title>
+
+        <listitem>
+          <para>Este documento tem por objetivo tentar destacar as
+	    principais
+            diferen&ccedil;as entre os dois sistemas operacionais, indo desde
+            gerenciamento de pacotes, at&eacute; os m&eacute;todos de atualiza&ccedil;&atilde;o do
+            sistema.</para>
+
+          <para>Est&aacute; em conformidade com a revis&atilde;o
+            <literal>r39170</literal> do documento original em
+            Ingl&ecirc;s.</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <title>
+          <ulink
+            url="http://www.freebsd.org/doc/pt_BR.ISO8859-1/articles/problem-reports/">
             Escrevendo relat&oacute;rios de problema no FreeBSD
           </ulink>
         </title>
@@ -382,99 +370,22 @@
             FreeBSD.</para>
 
             <para>Est&aacute; em conformidade com a revis&atilde;o
-	      <literal>r38826</literal> do documento original em
-	      Ingl&ecirc;s.</para>
+              <literal>r38826</literal> do documento original em
+              Ingl&ecirc;s.</para>
         </listitem>
       </itemizedlist>
 
-
-      <itemizedlist>
-	<title>
-	  <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/books/handbook/">
-	    <foreignphrase>Handbook</foreignphrase> do FreeBSD
-	  </ulink>
-	</title>
-
-	<listitem>
-	  <para>&Eacute; a principal e mais utilizada refer&ecirc;ncia de
-	    documenta&ccedil;&atilde;o oficial do &os;.  Traz abordagem de
-	    n&iacute;vel b&aacute;sico &agrave; intermedi&aacute;rio da
-	    instala&ccedil;&atilde;o e administra&ccedil;&atilde;o geral do sistema.
-	    &Eacute; um trabalho em constante atualiza&ccedil;&atilde;o, e
-	    &eacute; parte de um esfor&ccedil;o volunt&aacute;rio de
-	    dezenas de contribuidores.  Trata-se de uma das maiores
-	    e mais completas refer&ecirc;ncias centralizadas sobre
-	    um sistema de C&oacute;digo Aberto conhecidas.
-	    Deve ser cuidadosamente lido por novos usu&aacute;rios
-	    do FreeBSD e constantemente revistos por
-	    usu&aacute;rios mais experientes, pois est&aacute; em
-	    constante melhoria.</para>
-
-	   <para>Est&aacute; em conformidade com a revis&atilde;o
-	   <literal>1.2</literal> do documento original em Ingl&ecirc;s.</para>
-	</listitem>
-      </itemizedlist>
-
-      <itemizedlist>
-	<title>
-	  <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/books/porters-handbook">
-	    <foreignphrase>Handbook</foreignphrase> dos Desenvolvedores de Ports
-	  </ulink>
-	</title>
-
-	<listitem>
-	  <para>&Eacute; a refer&ecirc;ncia prim&aacute;ria para todo indiv&iacute;duo
-	    que deseje conhecer mais sobre a Cole&ccedil;&atilde;o de
-	    <literal>Ports</literal> do FreeBSD, em especial que
-	    deseje contribuir ativamente, tornando-se um mantenedor de
-	    <literal>ports</literal> j&aacute; existentes ou
-	    novos <literal>ports</literal>.  Documenta todas as
-	    regras e padr&otilde;es sob os quais um <literal>port</literal>
-	    deve ser criado, incluindo exemplos de arquivos
-	    <filename>Makefile</filename>, vari&aacute;veis como
-	    <makevar>MASTERDIR</makevar>, <makevar>BROKEN</makevar>
-	    <makevar>FORBIDDEN</makevar>, <makevar>DEPRECATED</makevar>,
-	    e considera&ccedil;&otilde;es especiais sobre o subsistema de
-	    gerenciamento de aplica&ccedil;&otilde;es de terceiros.</para>
-
-	   <para>Est&aacute; em conformidade com a revis&atilde;o
-	   <literal>1.349</literal> do documento original em Ingl&ecirc;s.</para>
-	</listitem>
-      </itemizedlist>
-
-      <itemizedlist>
-	<title>
-	  <ulink url="http://doc.fug.com.br/hardware-notes/">
-	    Notas de Hardware do FreeBSD
-	  </ulink>
-	</title>
-
-	<listitem>
-	  <para>Guia de compatibilidade de Hardware para &os;
-	   Documenta todos os chipsets e equipamentos sabidamente
-	   suportados de forma plena pelo &os;.  Deve
-	   ser usado como refer&ecirc;ncia antes de adquirir
-	   novo hardware voltado para o sistema.</para>
-
-	   <para>Est&aacute; em conformidade com a revis&atilde;o
-	   <literal>1.4</literal> do documento original em Ingl&ecirc;s.</para>
-	</listitem>
-      </itemizedlist>
-    </sect1>
-
-    <sect1 id="documentos-defasados">
-      <title>Documentos traduzidos, mas que est&atilde;o defasados com
-        rela&ccedil;&atilde;o ao original</title>
-
       <itemizedlist>
         <title>
-          <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/explaining-bsd/">
+          <ulink
+	    url="http://www.freebsd.org/doc/pt_BR.ISO8859-1/articles/explaining-bsd/">
             Explicando FreeBSD
           </ulink>
         </title>
 
         <listitem>
-          <para>No mundo do c&oacute;digo aberto, a palavra <quote>Linux</quote>
+          <para>No mundo do c&oacute;digo aberto, a palavra
+	    <quote>Linux</quote>
             &eacute; quase um sin&ocirc;nimo de <quote>Sistema
             Operacional</quote>, mas esse n&atilde;o &eacute; o
             &uacute;nico sistema operacional <trademark>UNIX</trademark>
@@ -498,13 +409,15 @@
             quest&otilde;es.</para>
 
             <para>Est&aacute; em conformidade com a revis&atilde;o
-            <literal>1.7</literal> do documento original em Ingl&ecirc;s.</para>
+            <literal>r38826</literal> do documento original em
+	    Ingl&ecirc;s.</para>
         </listitem>
       </itemizedlist>
 
       <itemizedlist>
         <title>
-          <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/freebsd-questions/">
+          <ulink
+	    url="http://www.freebsd.org/doc/pt_BR.ISO8859-1/articles/freebsd-questions/">
             Como obter o melhor resultado para as suas perguntas na
             lista de discuss&atilde;o FreeBSD-Question
           </ulink>
@@ -512,10 +425,12 @@
 
         <listitem>
           <para>Este documento prove informa&ccedil;&otilde;es &uacute;teis
-            para as pessoas que planejam enviar um email para a lista de
+            para as pessoas que planejam enviar um email para a lista
+	    de
             discuss&atilde;o <literal>FreeBSD-questions</literal>.
             Os avisos e conselhos foram elaborados com
-            o com objetivo de maximizar as chances de que o leitor receba
+            o com objetivo de maximizar as chances de que o leitor
+	    receba
             respostas &uacute;teis para as suas mensagens.</para>
 
           <para>Este documento &eacute; enviado regularmente para a lista de
@@ -526,7 +441,133 @@
             com grande tr&aacute;fego de e-mails semanais.</para>
 
             <para>Est&aacute; em conformidade com a revis&atilde;o
-            <literal>1.2</literal> do documento original em Ingl&ecirc;s.</para>
+            <literal>r38826</literal> do documento original em
+	    Ingl&ecirc;s.</para>
+        </listitem>
+      </itemizedlist>
+
+    </sect1>
+
+    <sect1 id="documentos-em-revisao">
+      <title>Atualmente em fase de revis&atilde;o (&agrave; ser integrados em breve)</title>
+
+      <para>Atualmente n&atilde;o existe nenhum documento em fase de revis&atilde;o,
+	veja na se&ccedil;&atilde;o a seguir os documentos em fase de tradu&ccedil;&atilde;o,
+	estes s&atilde;o os pr&oacute;ximos a entrarem nesta &aacute;rea.</para>
+    </sect1>
+
+
+    <sect1 id="documentos-em-traducao">
+      <title>Em trabalho de tradu&ccedil;&atilde;o</title>
+
+      <itemizedlist>
+	<title>
+	  <ulink
+	    url="http://server06.ebrandi.eti.br/articles/portbuild/">
+	    Procedimentos para Constru&ccedil;&atilde;o de Pacotes
+	  </ulink>
+	</title>
+
+	<listitem>
+	  <para>Este artigo documenta os trabalhos internos do
+	    <literal>cluester</literal> de constru&ccedil;&atilde;o de pacotes, &eacute;
+	    ele quem realiza a compila&ccedil;&atilde;o dos pacotes para oferecer os
+	    bin&aacute;rios pr&eacute;-compilados aos usu&aacute;rios do &os;.
+	  </para>
+
+	  <para>Est&aacute; em conformidade com a revis&atilde;o
+	  <literal>r39401</literal> do documento original em
+	  Ingl&ecirc;s.</para>
+	</listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+	<title>
+	  <ulink
+	    url="http://server06.ebrandi.eti.br/articles/rc-scripting/">
+	    Criando <literal>scripts</literal> rc.d para BSD na
+	    pr&aacute;tica</ulink>
+	</title>
+
+	<listitem>
+	  <para>Este artigo tem por objetivo iniciar o usu&aacute;rio na
+	  cria&ccedil;&atilde;o de <literal>scripts</literal> para o
+	  <literal>framework</literal> <literal>rc.d</literal>.</para>
+
+	  <para>Est&aacute; em conformidade com a revis&atilde;o
+	  <literal>r38826</literal> do documento original em
+	  Ingl&ecirc;s.</para>
+	</listitem>
+      </itemizedlist>
+    </sect1>
+
+    <sect1 id="documentos-desatualizados">
+      <title>Documentos traduzidos, mas que est&atilde;o desatualizados com
+        rela&ccedil;&atilde;o ao original</title>
+
+      <para>Os documentos a seguir passaram pelo precesso de tradu&atilde;o e
+        revis&atilde;o em sua grande maioria, mas por problemas de ordem maior
+        n&atilde;o puderam ser integrados &agrave; &aacute;rvore oficial do &os;. Todos
+	est&atilde;o desatualizados com rela&ccedil;&atilde;o a vers&atilde;o original e precisam
+	ser revisados ou traduzidos do zero novamente.</para>
+
+      <itemizedlist>
+        <title>
+          <ulink
+	    url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/books/handbook/">
+            <foreignphrase>Handbook</foreignphrase> do FreeBSD
+          </ulink>
+        </title>
+
+        <listitem>
+          <para>&Eacute; a principal e mais utilizada refer&ecirc;ncia de
+            documenta&ccedil;&atilde;o oficial do &os;.  Traz abordagem de
+            n&iacute;vel b&aacute;sico &agrave; intermedi&aacute;rio da
+            instala&ccedil;&atilde;o e administra&ccedil;&atilde;o geral do sistema.
+            &Eacute; um trabalho em constante atualiza&ccedil;&atilde;o, e
+            &eacute; parte de um esfor&ccedil;o volunt&aacute;rio de
+            dezenas de contribuidores.  Trata-se de uma das maiores
+            e mais completas refer&ecirc;ncias centralizadas sobre
+            um sistema de C&oacute;digo Aberto conhecidas.
+            Deve ser cuidadosamente lido por novos usu&aacute;rios
+            do FreeBSD e constantemente revistos por
+            usu&aacute;rios mais experientes, pois est&aacute; em
+            constante melhoria.</para>
+
+           <para>Est&aacute; em conformidade com a revis&atilde;o
+	    <literal>1.2</literal> do documento original em
+	    Ingl&ecirc;s.</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <title>
+          <ulink
+	    url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/books/porters-handbook">
+            <foreignphrase>Handbook</foreignphrase> dos
+	    Desenvolvedores de Ports
+          </ulink>
+        </title>
+
+        <listitem>
+          <para>&Eacute; a refer&ecirc;ncia prim&aacute;ria para todo indiv&iacute;duo
+            que deseje conhecer mais sobre a Cole&ccedil;&atilde;o de
+            <literal>Ports</literal> do FreeBSD, em especial que
+            deseje contribuir ativamente, tornando-se um mantenedor de
+            <literal>ports</literal> j&aacute; existentes ou
+            novos <literal>ports</literal>.  Documenta todas as
+            regras e padr&otilde;es sob os quais um <literal>port</literal>
+            deve ser criado, incluindo exemplos de arquivos
+            <filename>Makefile</filename>, vari&aacute;veis como
+            <makevar>MASTERDIR</makevar>, <makevar>BROKEN</makevar>
+            <makevar>FORBIDDEN</makevar>,
+	    <makevar>DEPRECATED</makevar>,
+            e considera&ccedil;&otilde;es especiais sobre o subsistema de
+            gerenciamento de aplica&ccedil;&otilde;es de terceiros.</para>
+
+           <para>Est&aacute; em conformidade com a revis&atilde;o
+	    <literal>1.349</literal> do documento original em
+	    Ingl&ecirc;s.</para>
         </listitem>
       </itemizedlist>
 
@@ -666,7 +707,8 @@
 
       <itemizedlist>
         <title>
-          <ulink url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/">
+          <ulink
+	    url="http://doc.fug.com.br/doc/pt_BR.ISO8859-1/articles/laptop/">
             Utilizando o FreeBSD em Laptops
           </ulink>
         </title>
@@ -683,11 +725,30 @@
         </listitem>
       </itemizedlist>
 
+      <itemizedlist>
+        <title>
+          <ulink url="http://doc.fug.com.br/hardware-notes/">
+            Notas de Hardware do FreeBSD
+          </ulink>
+        </title>
+
+        <listitem>
+          <para>Guia de compatibilidade de Hardware para &os;
+           Documenta todos os chipsets e equipamentos sabidamente
+           suportados de forma plena pelo &os;.  Deve
+           ser usado como refer&ecirc;ncia antes de adquirir
+           novo hardware voltado para o sistema.</para>
+
+           <para>Est&aacute; em conformidade com a revis&atilde;o
+             <literal>1.4</literal> do documento original em
+             Ingl&ecirc;s.</para>
+        </listitem>
+      </itemizedlist>
+
     </sect1>
 
     <sect1 id="objetivos-futuros">
-      <title>Objetivos futuros (longo prazo) para o
-	&adocbr;</title>
+      <title>Objetivos futuros para o &adocbr;</title>
 
       <itemizedlist>
 	<title>Tradu&ccedil;&atilde;o do Web site do Projeto FreeBSD</title>
@@ -948,8 +1009,8 @@
 	  Mas para contribuir de forma ativa, enviando seus 
 	  <foreignphrase>commits</foreignphrase>
 	  diretamente para o reposit&oacute;rio, ou mesmo para criar um
-	  <foreignphrase>fork</foreignphrase>  do
-	  projeto, voc&ecirc; precisa criar sua conta no servi&ccedil;o acessando
+	  <foreignphrase>fork</foreignphrase> do
+	  projeto e poder enviar <literal>pull requests</literal>, voc&ecirc; precisa criar sua conta no servi&ccedil;o acessando
 	  <ulink url="https://github.com/signup/free">
 	  https://github.com/signup/free</ulink>.</para>
 
@@ -1007,9 +1068,9 @@
 	          todos os livros e artigos trabalhados
 	          pelo <acronym>FDP</acronym>, na l&iacute;ngua
 	          Portugu&ecirc;s Brasileiro. &Eacute; a estrutura importada
-	          junto ao <acronym>CVS</acronym> oficial do &os; sempre que
+	          junto ao reposit&oacute;rio Subversion oficial do &os; sempre que
 	          cada novo artigo ou livro est&aacute; pronto.  A
-	          constitui&ccedil;&atilde;o desse documento &eacute; r&iacute;gidamente
+	          constitui&ccedil;&atilde;o desse documento &eacute; rigidamente
 	          disposta no padr&atilde;o que voc&ecirc; leu no &primer;
 	          e que portanto j&aacute; conhece.
 	          Como n&atilde;o &eacute; particular &agrave; DOC-BR n&atilde;o ser&aacute;
@@ -1243,20 +1304,21 @@
       </sect2>
     </sect1>
 
-    <sect1 id="essencial-sobre-cvs-na-docbr">
-      <title>Essencial sobre <acronym>CVS</acronym> para trabalho na DOC-BR</title>
+    <sect1 id="essencial-sobre-git-na-docbr">
+      <title>Essencial sobre Git para trabalho na DOC-BR</title>
 	<para>Aqui voc&ecirc; acompanhar&aacute; o essencial sobre o que
-	  &eacute; preciso saber de &man.cvs.1; para desempenhar
-	  corretamente as fun&ccedil;&otilde;es na DOC-BR quando voc&ecirc;
+	  &eacute; preciso saber de <application>git</application> e
+	  <ulink url="https://github.com/">GitHub</ulink> para 
+	  desempenhar corretamente as fun&ccedil;&otilde;es na DOC-BR quando voc&ecirc;
 	  j&aacute; for membro do time.</para>
 
 	<note>
-	<para>Para acessar o servidor <acronym>CVS</acronym> do DOC-BR com privil&eacute;gios
+	<para>Para acessar o servidor Git do DOC-BR com privil&eacute;gios
 	  para atualiza&ccedil;&atilde;o e adi&ccedil;&atilde;o de novos documentos
 	  &eacute; necess&aacute;rio um nome de usu&aacute;rio v&aacute;lido no
-	  BerlioOS.  Voc&ecirc; soube anteriormente como cri&aacute;-lo.
+	  GitHub.  Voc&ecirc; soube anteriormente como cri&aacute;-lo.
 	  Quando a associa&ccedil;&atilde;o ao projeto DOC-BR concluir,
-	  ser&aacute; poss&iacute;vel acessar o <acronym>CVS</acronym> com
+	  ser&aacute; poss&iacute;vel acessar o GitHub com
 	  privil&eacute;gios de escrita.</para>
 	</note>
 
